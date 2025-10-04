@@ -12,7 +12,7 @@ export const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-2xl font-bold text-primary">FillNFull</h3>
             <p className="text-gray-400">
-              The ultimate WordPress eliminator platform for local services. Build your service marketplace faster and better.
+              Your complete local services marketplace. Connect with services in your area, faster and better.
             </p>
             <div className="flex space-x-4">
               <Button variant="ghost" size="icon" className="text-gray-400 hover:text-white hover:bg-white/10">
@@ -110,7 +110,7 @@ export const Footer = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="text-gray-400 text-sm">
-            © 2024 FillNFull - WordPress Eliminator Platform. All rights reserved.
+            © 2024 FillNFull - Your Local Services Marketplace. All rights reserved.
           </div>
           <div className="flex space-x-6 text-sm">
             <Button variant="ghost" className="text-gray-400 hover:text-white p-0 h-auto font-normal">

@@ -10,17 +10,16 @@ export const HeroSection = () => {
       style={{ backgroundImage: `url(${heroImage})` }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 via-blue-800/70 to-red-600/80" />
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-900/90 via-purple-900/85 to-red-600/90" />
       
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 py-16">
         <div className="text-center mb-12">
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
-            WordPress
-            <span className="block text-red-400">Eliminator</span>
+          <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 animate-fade-in">
+            <span className="block bg-gradient-to-r from-white via-blue-100 to-white bg-clip-text text-transparent">FillNFull</span>
           </h1>
-          <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
-            The Ultimate Local Services Platform - No WordPress Needed!
+          <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto animate-fade-in">
+            Your Complete Local Services Marketplace - All Services, One Platform!
           </p>
           <div className="text-lg text-white/80 mb-8">
             Post Views: <span className="font-bold text-white">40,418</span>
@@ -35,7 +34,7 @@ export const HeroSection = () => {
             { icon: Edit, title: "Post Here", subtitle: "Add Listing" },
             { icon: ShoppingCart, title: "Online Deals", subtitle: "Shop Now" },
           ].map((item, index) => (
-            <Card key={index} className="bg-white/10 backdrop-blur-sm border-white/20 p-6 text-center hover:bg-white/20 transition-all duration-300 cursor-pointer">
+            <Card key={index} className="bg-white/10 backdrop-blur-md border-white/20 p-6 text-center hover:bg-white/25 hover:scale-105 transition-all duration-300 cursor-pointer shadow-lg hover:shadow-2xl">
               <div className="w-16 h-16 mx-auto mb-4 bg-white/20 rounded-full flex items-center justify-center">
                 <item.icon className="w-8 h-8 text-white" />
               </div>

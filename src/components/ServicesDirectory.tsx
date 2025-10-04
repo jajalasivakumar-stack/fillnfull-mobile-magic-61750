@@ -56,11 +56,11 @@ export const ServicesDirectory = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-red-600 mb-4">
-            Find Here Popular Local Directories
+          <h2 className="text-4xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-red-600 bg-clip-text text-transparent mb-4">
+            Discover Popular Local Services
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            All the local services you need in one place - no WordPress required!
+            Everything you need in your neighborhood - delivered by FillNFull!
           </p>
         </div>
 
@@ -80,24 +80,24 @@ export const ServicesDirectory = () => {
           ))}
         </div>
 
-        {/* WordPress Eliminator CTA */}
+        {/* FillNFull CTA */}
         <div className="mt-16 text-center">
-          <Card className="p-8 bg-gradient-to-r from-blue-600 via-purple-600 to-red-600 text-white max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-4">
-              Why Choose Our WordPress Eliminator Platform?
+          <Card className="p-8 bg-gradient-to-r from-blue-600 via-purple-600 to-red-600 text-white max-w-4xl mx-auto shadow-2xl hover:shadow-3xl transition-shadow duration-300">
+            <h2 className="text-3xl font-bold mb-4 animate-fade-in">
+              Why Choose FillNFull?
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
-              <div className="text-center">
-                <div className="text-4xl font-bold mb-2">10x</div>
-                <div className="text-lg">Faster Than WordPress</div>
+              <div className="text-center hover:scale-110 transition-transform duration-300">
+                <div className="text-5xl font-bold mb-2 drop-shadow-lg">24/7</div>
+                <div className="text-lg">Always Available</div>
               </div>
-              <div className="text-center">
-                <div className="text-4xl font-bold mb-2">0</div>
-                <div className="text-lg">WordPress Dependencies</div>
+              <div className="text-center hover:scale-110 transition-transform duration-300">
+                <div className="text-5xl font-bold mb-2 drop-shadow-lg">500+</div>
+                <div className="text-lg">Local Services</div>
               </div>
-              <div className="text-center">
-                <div className="text-4xl font-bold mb-2">100%</div>
-                <div className="text-lg">Mobile Optimized</div>
+              <div className="text-center hover:scale-110 transition-transform duration-300">
+                <div className="text-5xl font-bold mb-2 drop-shadow-lg">100%</div>
+                <div className="text-lg">Satisfaction Guaranteed</div>
               </div>
             </div>
           </Card>

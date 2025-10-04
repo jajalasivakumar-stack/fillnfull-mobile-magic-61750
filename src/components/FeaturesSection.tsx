@@ -40,17 +40,17 @@ export const FeaturesSection = () => {
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            WordPress Eliminator Features
+          <h2 className="text-4xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-red-600 bg-clip-text text-transparent mb-4">
+            FillNFull Features
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Everything you need to build a successful local services platform without WordPress
+            Everything you need for a seamless local services experience
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {features.map((feature, index) => (
-            <Card key={index} className="p-6 hover:shadow-lg transition-shadow duration-300 bg-white border-l-4 border-l-primary">
+            <Card key={index} className="p-6 hover:shadow-2xl hover:scale-105 transition-all duration-300 bg-white border-l-4 border-l-primary">
               <div className={`w-16 h-16 ${feature.color} rounded-lg flex items-center justify-center mb-4`}>
                 <feature.icon className="w-8 h-8 text-white" />
               </div>
